@@ -4,72 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/therapeute86.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/migrations/Version20231201135027.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/migrations/Version20231202142711.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/migrations/Version20231207141457.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/AProposController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/AccueilController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/Api/PrestationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/Api/ReservationApiController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/PrestationsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/ProfileController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/RegistrationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/ReservationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/SeanceController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/Prestation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/Reservation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/Seance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/AdminUserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/RegistrationFormType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/PrestationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/ReservationRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/SeanceRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Security/EmailVerifier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/a_propos/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/contact/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/footer/footer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-admin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/prestations/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/profile/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/registration/confirmation_email.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/registration/register.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/reservation/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/reservation_api/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/seance/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/security/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/templates/user/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/calendar/calendar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/calendar/calendar.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/calendar/calendar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/calendar/calendar.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/reservation.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/reservation.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/symfony.lock" afterDir="false" />
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="first push">
+      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/footer/footer" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/footer/footer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +29,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Back-end" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -365,7 +313,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/wamp64/www/therapeute86&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/wamp64/www/therapeute86/Back-end/public/images&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -373,8 +321,21 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
+    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\therapeute86\Back-end\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp64\www\therapeute86\Back-end\public\images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/Back-end/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -408,14 +369,39 @@
       <workItem from="1701957695714" duration="12000" />
       <workItem from="1701958405691" duration="1483000" />
       <workItem from="1702030290385" duration="6552000" />
-      <workItem from="1702292834300" duration="1279000" />
+      <workItem from="1702292834300" duration="9987000" />
+      <workItem from="1702372924077" duration="2965000" />
+      <workItem from="1702427442144" duration="8972000" />
+      <workItem from="1702473468891" duration="1008000" />
     </task>
+    <task id="LOCAL-00001" summary="first push">
+      <option name="closed" value="true" />
+      <created>1702295139040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702295139040</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first push" />
+    <option name="LAST_COMMIT_MESSAGE" value="first push" />
   </component>
 </project>
