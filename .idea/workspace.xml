@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="first push">
-      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/public/images/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/public/images/favicon.ico" afterDir="false" />
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="app logo nav bar">
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/image-accueil.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/footer/footer" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/footer/footer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/AccueilController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,7 +339,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.232" />
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
       </set>
     </attachedChunks>
   </component>
@@ -372,7 +366,9 @@
       <workItem from="1702292834300" duration="9987000" />
       <workItem from="1702372924077" duration="2965000" />
       <workItem from="1702427442144" duration="8972000" />
-      <workItem from="1702473468891" duration="1008000" />
+      <workItem from="1702473468891" duration="2597000" />
+      <workItem from="1702536710438" duration="2169000" />
+      <workItem from="1702546004005" duration="736000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -382,7 +378,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702295139040</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="app logo nav bar">
+      <option name="closed" value="true" />
+      <created>1702474503157</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702474503157</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +406,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first push" />
-    <option name="LAST_COMMIT_MESSAGE" value="first push" />
+    <MESSAGE value="app logo nav bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="app logo nav bar" />
   </component>
 </project>
