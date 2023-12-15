@@ -4,13 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="app logo nav bar">
-      <change afterPath="$PROJECT_DIR$/Back-end/public/images/image-accueil.jpg" afterDir="false" />
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/pages/accueil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/Thérapie somato-emotionelle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/hypnose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/pauline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/public/images/pnl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/templates/accueil/accueil.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/AProposController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/AProposController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/AccueilController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/AccueilController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/PrestationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/PrestationsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/SeanceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/SeanceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/a_propos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/a_propos/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/accueil/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/contact/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/contact/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/prestations/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/prestations/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/profile/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/profile/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/reservation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/reservation/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/reservation_api/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/reservation_api/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/seance/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/seance/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/security/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/user/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/user/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +390,8 @@
       <workItem from="1702427442144" duration="8972000" />
       <workItem from="1702473468891" duration="2597000" />
       <workItem from="1702536710438" duration="2169000" />
-      <workItem from="1702546004005" duration="736000" />
+      <workItem from="1702546004005" duration="12871000" />
+      <workItem from="1702630243843" duration="14312000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -386,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702474503157</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="star accueil page">
+      <option name="closed" value="true" />
+      <created>1702546890763</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702546890764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,6 +438,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first push" />
     <MESSAGE value="app logo nav bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="app logo nav bar" />
+    <MESSAGE value="star accueil page" />
+    <option name="LAST_COMMIT_MESSAGE" value="star accueil page" />
   </component>
 </project>
