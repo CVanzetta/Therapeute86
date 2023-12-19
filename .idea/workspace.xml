@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="page accueil finis manque just le form">
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="correction bug">
+      <change afterPath="$PROJECT_DIR$/Back-end/migrations/Version20231218143911.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/ContactType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/ContactRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/services/contact.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-end/src/app/services/contact.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/pages/accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/pages/accueil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/footer/footer" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/footer/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-admin" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-end/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +389,8 @@
       <workItem from="1702536710438" duration="2169000" />
       <workItem from="1702546004005" duration="12871000" />
       <workItem from="1702630243843" duration="14409000" />
-      <workItem from="1702895907950" duration="7740000" />
+      <workItem from="1702895907950" duration="15643000" />
+      <workItem from="1702993612561" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -402,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702647687682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="page accueil finis manque just le form">
+      <option name="closed" value="true" />
+      <created>1702908510487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702908510487</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,6 +455,7 @@
     <MESSAGE value="app logo nav bar" />
     <MESSAGE value="star accueil page" />
     <MESSAGE value="page accueil finis manque just le form" />
-    <option name="LAST_COMMIT_MESSAGE" value="page accueil finis manque just le form" />
+    <MESSAGE value="correction bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction bug" />
   </component>
 </project>
