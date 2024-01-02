@@ -268,6 +268,7 @@
       <path value="$PROJECT_DIR$/Back-end/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/Back-end/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/Back-end/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/Back-end/vendor/symfony/apache-pack" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />

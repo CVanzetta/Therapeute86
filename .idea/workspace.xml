@@ -4,32 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="correction bug">
-      <change afterPath="$PROJECT_DIR$/Back-end/migrations/Version20231218143911.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Entity/Contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/ContactType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Back-end/src/Repository/ContactRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/components/contact-form/contact-form.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/services/contact.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-end/src/app/services/contact.service.ts" afterDir="false" />
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="création du formulaire angular">
+      <change afterPath="$PROJECT_DIR$/Back-end/public/CSS/pages/a-propos.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/components/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/public/CSS/pages/accueil.css" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/public/CSS/pages/accueil.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/AProposController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/AProposController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/a_propos/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/a_propos/a-propos.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/footer/footer" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/footer/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-admin" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Front-end/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +21,13 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/Back-end/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Back-end" />
@@ -327,6 +316,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/wamp64/www/therapeute86/Back-end/public/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -358,7 +348,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
       </set>
     </attachedChunks>
   </component>
@@ -390,7 +380,10 @@
       <workItem from="1702546004005" duration="12871000" />
       <workItem from="1702630243843" duration="14409000" />
       <workItem from="1702895907950" duration="15643000" />
-      <workItem from="1702993612561" duration="628000" />
+      <workItem from="1702993612561" duration="814000" />
+      <workItem from="1703071001010" duration="2154000" />
+      <workItem from="1704186071216" duration="75000" />
+      <workItem from="1704186243983" duration="8805000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -432,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702908510487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="création du formulaire angular">
+      <option name="closed" value="true" />
+      <created>1702996596828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702996596828</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,6 +457,7 @@
     <MESSAGE value="star accueil page" />
     <MESSAGE value="page accueil finis manque just le form" />
     <MESSAGE value="correction bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="correction bug" />
+    <MESSAGE value="création du formulaire angular" />
+    <option name="LAST_COMMIT_MESSAGE" value="création du formulaire angular" />
   </component>
 </project>
