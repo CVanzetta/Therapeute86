@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment=".htaccess">
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="ok">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ContactController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/PrestationsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/PrestationsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/RegistrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/RegistrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/contact/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/contact/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/prestations/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/prestations/prestation.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/templates/security/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/registration/register.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +383,7 @@
       <workItem from="1703071001010" duration="2154000" />
       <workItem from="1704186071216" duration="75000" />
       <workItem from="1704186243983" duration="8805000" />
-      <workItem from="1704233817849" duration="6496000" />
+      <workItem from="1704233817849" duration="8940000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -447,7 +441,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704234061552</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="penser a modifier le mailer pour qu'il envoi un email je l'es désactiver pour le dev">
+      <option name="closed" value="true" />
+      <created>1704240832696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704240832696</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ok">
+      <option name="closed" value="true" />
+      <created>1704240874958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704240874958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,7 +468,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -473,6 +495,8 @@
     <MESSAGE value="correction bug" />
     <MESSAGE value="création du formulaire angular" />
     <MESSAGE value=".htaccess" />
-    <option name="LAST_COMMIT_MESSAGE" value=".htaccess" />
+    <MESSAGE value="penser a modifier le mailer pour qu'il envoi un email je l'es désactiver pour le dev" />
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
 </project>
