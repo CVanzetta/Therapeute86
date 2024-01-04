@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="ok">
+    <list default="true" id="c20e5614-699a-4199-9cfc-8e7a1f984570" name="Changes" comment="getter et setter de user">
+      <change afterPath="$PROJECT_DIR$/Back-end/src/Command/CreateSeancesCommand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Back-end/src/Form/SeanceType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Back-end/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/ReservationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/ReservationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/SeanceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/SeanceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Controller/SecurityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Entity/Reservation.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Entity/Reservation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/src/Entity/Seance.php" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/src/Entity/Seance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/nav/nav-user.html" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/nav/nav-user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/prestation/index.html.twig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Back-end/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/registration/register.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Back-end/templates/reservation/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Back-end/templates/reservation/reservation.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,6 +324,7 @@
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Symfony Command.app:create-seances.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/wamp64/www/therapeute86/Back-end/public/images&quot;,
@@ -338,9 +351,12 @@
       <recent name="D:\wamp64\www\therapeute86\Back-end\public\images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.Main">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/Back-end/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app:create-seances" type="symfony.command" factoryName="Symfony Command" temporary="true">
       <method v="2" />
     </configuration>
   </component>
@@ -383,7 +399,9 @@
       <workItem from="1703071001010" duration="2154000" />
       <workItem from="1704186071216" duration="75000" />
       <workItem from="1704186243983" duration="8805000" />
-      <workItem from="1704233817849" duration="8940000" />
+      <workItem from="1704233817849" duration="9247000" />
+      <workItem from="1704274686443" duration="16700000" />
+      <workItem from="1704350699733" duration="1296000" />
     </task>
     <task id="LOCAL-00001" summary="first push">
       <option name="closed" value="true" />
@@ -457,7 +475,23 @@
       <option name="project" value="LOCAL" />
       <updated>1704240874958</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="getter et setter de user">
+      <option name="closed" value="true" />
+      <created>1704243185752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704243185752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="getter et setter de user">
+      <option name="closed" value="true" />
+      <created>1704243471635</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1704243471635</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,6 +531,7 @@
     <MESSAGE value=".htaccess" />
     <MESSAGE value="penser a modifier le mailer pour qu'il envoi un email je l'es désactiver pour le dev" />
     <MESSAGE value="ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+    <MESSAGE value="getter et setter de user" />
+    <option name="LAST_COMMIT_MESSAGE" value="getter et setter de user" />
   </component>
 </project>
